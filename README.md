@@ -107,8 +107,9 @@ Small icon: R.drawable.ic_cup
 Content Title: R.string.notification_title
 Content text: R.string.notification_message
  When the user taps a notification, TeaDetailActivity is launched.  
-
-1. Define a local database model and data access object (DAO) using the schema app/schemas/tea.json for the data structure.
+ 
+ 
+ 1. Define a local database model and data access object (DAO) using the schema app/schemas/tea.json for the data structure.
 Use the SortUtils helper class.
 Use the getSortedTeas method from the DataRepository to create a sortable rawquery for the teas in the list.
 Populate initial content into the database from res/raw/sample_teas.json
